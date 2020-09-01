@@ -363,8 +363,14 @@ img, video{
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 30px;
-	max-width: 600px;
+	text-align: center;
+	
 	}
+.c-other-works3 img{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
 /*banner*/
 .c-other-works4{
 	padding-left: 20px;
@@ -829,14 +835,16 @@ Profileページ
 	}
 .c-other-works3{
 	float: right;
-	width: 45%;
+	width: 46%;
 	padding-right: 4%;
 	}
 .c-other-works4{
 		float: right;
-		width: 41%;
+		width: 49%;
 		padding-top: 8%;
-		padding-right: 4%;
+		margin: 0;
+		padding-left: 20px;
+		box-sizing: border-box;
 		}	
 /* Profile
 --------------------------------------------------------- */
