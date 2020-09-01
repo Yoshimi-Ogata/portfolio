@@ -221,24 +221,23 @@ img, video{
 /* concept
 --------------------------------------------------------- */
 .l-concept{
-	width: 90%;
-	height: 200px;
-	border: 2px solid #F89369;
-	padding: 60px 20px 20px 20px;
-	border-radius: 50%;
-	margin-bottom: 60px!important;
-	line-height: 2;
+	width: 80%;
+	text-align: center;
 	margin: 0 auto;
+	border: 2px solid #F89369;
+	padding: 50px 35px 50px 35px;
+	border-radius: 50%;
+	margin-bottom: 60px;
+	line-height: 2;
 	}
 .l-concept2{
-	width: 90%;
-	height: 200px;
-	border: 2px solid #70D3E8;
-	padding: 60px 20px 20px 20px;
-	border-radius: 50%;
-	margin-bottom: 60px!important;
-	line-height: 2;
+	width: 80%;
 	margin: 0 auto;
+	border: 2px solid #70D3E8;
+	padding: 50px 35px 50px 35px;
+	border-radius: 50%;
+	margin-bottom: 60px;
+	line-height: 2;
 	}
 .NY{
 	color: #F89369;
