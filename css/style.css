@@ -258,18 +258,6 @@ img, video{
 }
 /* The Works
 --------------------------------------------------------- */
-#index_page .l-black h1 a:link,#index_page .l-black h2 a:link, #index_page .l-black h3 a:link{
-	color: #fff;
-	text-decoration: none;
-}
-#index_page .l-black h1 a:hover,#index_page .l-black h2 a:hover, #index_page .l-black h3 a:link{
-	color: #fff;
-	text-decoration: none;
-}
-#index_page .l-black h1 a:visited,#index_page .l-black h2 a:visited, #index_page .l-black h3 a:visited{
-	color: #fff;
-	text-decoration: none;
-}
 .l-top-menu .col{
 	margin-bottom: 40px;
 	padding-bottom: 20px;
@@ -375,10 +363,14 @@ img, video{
 /* Profile
 --------------------------------------------------------- */
 .l-top-profile{
-	min-width: 180px;
 	width: 50%;
 	margin: 0 auto;
 	margin-bottom: 30px;
+	text-align: center;
+}
+.l-top-profile img{
+	width: 100%;
+	max-width: 300px;
 }
 .l-top-profile a:hover{
 	opacity: 0.5;
@@ -842,7 +834,6 @@ Profileページ
 	}
 .l-top-profile{
 	float: right;
-	max-width: 300px;
 	width: 30%;
 	padding-right: 4%;
 }
@@ -946,10 +937,17 @@ Profileページ
 #profile_page .l-top-profile2{
 	float: right;
 	width: 50%;
-	margin-right: 20%;
 	margin-top: 5%;
-	box-sizing: border-box;
+	margin-right: 0;
 	}
+#profile_page .l-top-profile{
+	float: right;
+	width: 50%;
+	margin-left: 15%;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
 .l-sub-profile{
 		float: left;
 	}
