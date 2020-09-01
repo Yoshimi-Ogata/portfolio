@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>portfolio</title>
+<!-- TemplateEndEditable -->
+<meta name="Keywords" content="portfolio">
+<meta name="Description" content="portfolio">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/style.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="id" type="text" value="index_page" -->
+</head>
+
+<body id="@@(id)@@">
+<!--ヘッダー-->
+<header class="l-header clearfix">
+	<div class="l-header__inner">
+		<div class="l-header__inner__logo"><a href="../index.html"><img src="../Images/logo.svg" alt=""></a>
+		</div>
+	  <div id="navControl"><a href ="#" class="close">Navigation</a></div>
+	<nav class="l-header__nav">
+			<ul class="l-gnav">
+				<li id="home" class="l-gnav__list"><a href="../index.html">Home</a></li>
+				<li id="The_works" class="l-gnav__list"><a href="../The_works.html">The Works</a></li>
+				<li id="how_to_make" class="l-gnav__list"><a href="../how_to_make.html">How to make</a></li>
+				<li id="profile" class="l-gnav__list"><a href="../profile.html">Profile</a></li>
+			</ul>
+		</nav>
+</div>
+</header>
+<!-- TemplateBeginEditable name="main" -->
+<!--メイン-->
+<main class="l-main">
+  
+</main>
+<!-- TemplateEndEditable --><!--フッター-->
+	<footer class="l-footer">
+		<div class="l-footer--inner">
+			<div class="l-copyright c-text--center">
+				Copyright &copy; Port Folio Yoshimi Ogata Inc. All rights reserved.
+			</div>
+		</div>
+	</footer>
+<!--ジャバ-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/fullSlide.js"></script>
+</body>
+</html>
