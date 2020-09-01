@@ -1,0 +1,61 @@
+<!doctype html>
+<html dir="ltr" lang="ja">
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Cafe Fiore</title>
+<!-- TemplateEndEditable -->
+<meta name="Keywords" content="カフェ,オーガニック,Cafe,Cafe Fiore">
+<meta name="Description" content="オーガニックカフェのCafe Fiore">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+<!--↑↑↑欧文フォント↑↑↑-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="id" type="text" value="index_page" -->
+</head>
+<body id="@@(id)@@">
+<!--ヘッダー-->
+<header class="l-header clearfix">
+	<div class="l-header__inner">
+		<div class="l-header__inner__logo"><a href="../index.html"><img src="../Images/SVG/cafe_fiore_logo.svg" alt="Cafe Fiore" border="0"></a></div>
+		<div id="navControl"><a href ="#" class="close">Navigation</a></div>
+	<nav class="l-header__nav">
+			<ul class="l-gnav">
+				<li id="home" class="l-gnav__list l-font"><a href="../index.html">Home</a></li>
+				<li id="news" class="l-gnav__list l-font"><a href="../news.html">News</a></li>
+				<li id="menu" class="l-gnav__list l-font"><a href="../menu.html">Menu</a></li>
+				<li id="organic" class="l-gnav__list l-font"><a href="../organic.html">Organic</a></li>
+			</ul>
+		</nav>
+</div>
+</header>
+<!-- TemplateBeginEditable name="main" -->
+<!--メイン-->
+<main class="l-main"></main>
+<!-- TemplateEndEditable -->
+<!--フッター-->
+	<footer class="l-footer">
+		<div class="l-footer--inner">
+			<div class="l-footer__logo"><a href="../index.html"><img src="../Images/SVG/cafe_fiore_logo1.svg" alt=""></a></div>
+			<ul>
+				<li class="l-font"><a href="../company.html">Company</a></li>
+				<li class="l-font"><a href="../contact.html">Contact</a></li>
+				<li class="l-font"><a href="../privacypolicy.html">Privacypolicy</a></li>
+			</ul>
+			<div class="l-copyright c-text--center l-font">
+				Copyright &copy; Cafe Fiore Inc. All rights reserved.
+			</div>
+		</div>
+	</footer>
+<!--ジャバ-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/fullSlide.js"></script>
+	<!-- TemplateBeginEditable name="javascript" -->
+	<!-- TemplateEndEditable -->
+</body>
+</html>

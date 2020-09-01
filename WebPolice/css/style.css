@@ -1,0 +1,444 @@
+
+/* ---------------------------------------------------
+ Foundation
+--------------------------------------------------- */
+/* Base
+----------------------------------------------- */
+html{
+	min-width: 320px;
+	font-size: 62.5%;
+}
+body{
+	margin: 0;
+	line-height: 1.5;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ","MS Pゴシック", sans-serif;
+}
+.row{
+	margin-bottom: 10px;
+}
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+a:link{
+	color: #333;
+}
+a:hover, a:focus, a:active{
+	color: #b3b3b3;
+	text-decoration: none;
+}
+img, video{
+	max-width: 100%;
+	height: auto;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* ---------------------------------------------------
+ Layout
+--------------------------------------------------- */
+/* base layout
+--------------------------------------------------------- */
+.l-container{
+	margin: 0 20px;
+	padding: 40px 0;
+}
+.l-inner{
+	margin: 0 20px;
+}
+.l-image{
+	width: 40%;
+	margin: 0 auto;
+	max-width: 200px;
+}
+/* 見出し・テキストの設定
+--------------------------------------------------------- */
+.c-title--head{
+	font-size: 3rem;
+	line-height: 1.2;
+	margin-bottom: 60px;
+}
+.c-title--head2{
+	font-size: 1.6rem;
+	line-height: 1;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.c-title--head--center{
+	text-align: center;
+}
+.c-text--center{
+	text-align: center;
+}
+.l-blue{
+	color: #56A5ED;
+	font-weight: bold;
+}
+li{
+	list-style: none;
+}
+/* メインビジュアル
+--------------------------------------------------------- */
+.l-main-visual img{
+	max-height: 100%;
+	width: auto;
+}
+.l-main-visual{
+	margin: 20px 20px 60px 20px;
+}
+.exprain{
+	max-width: 800px;
+}
+	
+.l-exprain{
+		line-height: 2.5;
+		margin-bottom: 60px;
+}
+/* マネーロンダリング
+--------------------------------------------------------- */
+.c-contents-size{
+	margin-top: 60px;
+	}
+/* こんなお悩みありませんか？
+--------------------------------------------------------- */
+.c-list-worries {
+  background: #fff;
+  border-radius: 20px;
+  border: 4px solid #56A5ED;
+  font-weight: bold;
+  padding: 20px 20px 0 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 680px;
+}
+c-list-worries__item{
+	list-style: none;
+	font-size: 1.7rem;
+	padding-bottom: 20px;
+}
+
+/* web policeは犯罪を許さない
+--------------------------------------------------------- */
+.l-box{
+	width: 100%;
+	background-color: #F2F2F2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	}
+.l-box2{
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 80%;
+	}
+.position-number{
+		position: relative;
+	}
+.l-number{
+		position: absolute;
+		top: -30px;
+		left: 30px;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		color: #56A5ED;
+		font-size: 3rem;
+		font-weight: bold;
+	}
+.l-strength{
+		width: 40%;
+	    margin: 0 auto;
+	}
+.c-list-strength__item{
+	padding-bottom: 10px;
+}
+/* 実績
+--------------------------------------------------------- */
+.c-list__item3{
+	color: #000;
+	font-size: 2.1rem;
+	margin-bottom: 120px;
+	font-weight: bold;
+	}
+.c-list__item3:last-child{
+	margin-bottom: 0;
+}
+.l-performance-img{
+	padding-top: 60px;
+	width: 50%;
+	margin: 0 auto;
+	max-width: 300px;
+}
+.l-per-sub{
+	color: #56A5ED;
+	/*color:rgba(176,222,237,1.00);*/
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-top: 30px;
+	}
+/* お問い合わせ
+--------------------------------------------------------- */
+table{
+	margin: 20px auto;
+	border-collapse: collapse;
+	border: none;
+}
+.tbr-r02{
+	width: 80%;
+}
+.tbl-r02 th{
+	display: block;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	border-bottom: none;
+	background-color:#C5DFFE;
+	padding: 10px;
+}
+.tbl-r02 td{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-bottom: none;
+	text-align: center;
+}
+input[type="text"],textarea{
+	padding: 2px;
+	border: 1px solid #999;
+	width: 260px;
+}
+input[type="text"]{
+	text-align: center;
+}
+#tel_number{width: 150px;}
+form textarea#comment{
+	width: 270px;
+	min-height: 180px;
+	max-height: 500px;
+	overflow: auto;
+	resize: vertical;
+}
+form p{
+	margin-top: 10px;
+	margin-bottom: 60px;
+	line-height: 2;
+	text-align: center;
+}
+form input#submit{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+	padding: 10px 10px;
+	background-color: #56A5ED;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	border-style: none;
+}
+form input#submit:hover{
+	background-color: #D9D9D9;
+	color: fff;
+	border-style: none;
+}
+/*ここから以下はメディアクエリ*/
+@media only screen and (min-width: 1000px){
+
+	.col{
+		float: left;
+		text-align: center;
+		margin-right: 2.5641%;
+		margin-left: 5.1282%;
+	}
+	.col:last-child{
+		margin-right: 0;
+	}
+	.col1{
+		width: 5.9829%;
+		}
+	.col2{
+		width: 14.5299%;
+	}
+	.col3{
+		width: 23.0769%;
+	}
+	.col4{
+		width: 31.6239%;
+	}
+	.col5{
+		width: 40.1709%;
+	}
+	.col6{
+		width: 48.7179%;
+	}
+	.col7{
+		width: 57.2649%;
+	}
+	.col8{
+		width: 65.8119%;
+	}
+	.col9{
+		width: 74.3589%;
+	}
+	.col10{
+		width: 82.9059%;
+	}
+	.col11{
+		width: 91.4529%;
+	}
+	.col12{
+		width: 100%;
+	}
+/* メインビジュアル
+--------------------------------------------------------- */
+.l-main-visual img{
+		width: 100%;
+		height: auto;
+	}
+.l-main-visual{
+		max-width: 900px;
+		margin: 60px auto;
+		text-align: center;
+	}
+/* Base
+----------------------------------------------- */
+.l-inner{
+		margin: 0 auto;
+		max-width: 1500px;
+	}
+.l-image{
+	width: 15%;
+	margin: 0 auto;
+}
+/* 見出し・テキストの設定
+--------------------------------------------------------- */
+.c-title--head{
+	font-size: 3.5rem;
+	line-height: 1.2;
+	margin-bottom: 60px;
+}
+.c-title--head2{
+	font-size: 2rem;
+	line-height: 1;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+/* マネーロンダリング
+--------------------------------------------------------- */
+.exprain{
+	width: 50%;
+}
+.c-contents-size{
+	width: 43%;
+	margin-top: 10%;
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+	}
+.l-sub-inner{
+	margin: 120px 0;
+	}
+.right{
+	float: right;
+	}
+.left{
+	float: left;
+	}
+/* こんなお悩みありませんか？
+--------------------------------------------------------- */
+.c-list-worries{
+		width: 50%;
+		height: 10%;
+		float: left;
+		margin-left: 20%;
+		margin-right: 5%;
+		margin-top: 30px;
+		margin-bottom: 120px;
+		padding: 20px 20px 0;
+	}
+.c-list-worries__item{
+	list-style: none;
+	font-size: 2rem;
+	padding-bottom: 30px;
+}
+/* webpoliceは犯罪を許さない
+----------------------------------------------- */
+.l-box2{
+	padding: 20px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 70%;
+	}
+.c-title--head--strength{
+	color: #000;
+	padding-top: 10px;
+	padding-left: 40px;
+	}
+.c-list-strength{
+	padding-left: 40px;	
+	}
+.l-strength{
+		width: 25%;
+		padding-left: 5%;
+		float: left;
+	}
+.l-length{
+	width: 70%;
+}
+.l-strength2{
+	margin-top: 5.5%;
+	}
+
+/*----------------------------
+実績
+----------------------------*/
+.l-performance-img{
+	padding-top: 60px;
+	width: 30%;
+	margin: 0 auto;
+}
+.l-performance{
+		margin-top: 60px;
+	}
+/*----------------------------
+お問い合わせ
+----------------------------*/
+table{
+	width: 50%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	border: 1px solid #999;
+	border-radius: 15px;
+	max-width: 600px;
+}
+.tbl-r02 th{
+	width: 30%;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+	border-bottom: 1px solid #999;
+	padding: 10px;
+}
+.tbl-r02 td{
+	width: 40%;
+	display: table-cell;
+	padding: 10px;
+	border-bottom: 1px solid #999;
+	text-align: left;
+	background-color: #fff;
+}
+input[type="text"]{
+	text-align: left;
+}
+}
