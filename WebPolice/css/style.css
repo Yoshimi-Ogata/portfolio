@@ -1,0 +1,653 @@
+
+/* ---------------------------------------------------
+ Foundation
+--------------------------------------------------- */
+/* Base
+----------------------------------------------- */
+html{
+	min-width: 320px;
+	font-size: 62.5%;
+}
+body{
+	margin: 0;
+	line-height: 1.5;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ","MS Pゴシック", sans-serif;
+}
+.row{
+	margin-bottom: 10px;
+}
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+a:link{
+	color: #333;
+}
+a:hover, a:focus, a:active{
+	color: #b3b3b3;
+	text-decoration: none;
+}
+img, video{
+	max-width: 100%;
+	height: auto;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* ---------------------------------------------------
+ Layout
+--------------------------------------------------- */
+/* base layout
+--------------------------------------------------------- */
+.l-container{
+	margin: 0 20px;
+	padding: 40px 0;
+}
+.l-inner{
+	margin: 0 20px;
+}
+
+/* 見出し・テキストの設定
+--------------------------------------------------------- */
+.c-title--head{
+	font-size: 3.5rem;
+	line-height: 1.2;
+	margin-bottom: 120px;
+}
+.c-title--head2{
+	font-size: 2.3rem;
+	line-height: 1;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.c-title--head--center{
+	text-align: center;
+}
+.c-text--center{
+	text-align: center;
+}
+.l-blue{
+	color: #56A5ED;
+	font-weight: bold;
+}
+li{
+	list-style: none;
+}
+/* メインビジュアル
+--------------------------------------------------------- */
+.l-main-visual{
+	width: 100%;
+}
+.l-main-visual img{
+	width: 100%;
+	height: 100%;
+}
+.pcview{
+	
+}
+.spview{
+	display: none;
+}
+.l-hero__tagline{
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 40%;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 100%;
+	padding: 20px;
+	display: block;
+	z-index: 2;
+}
+.l-hero__tagline2{
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 90%;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding: 20px;
+	display: block;
+	z-index: 2;
+	width: 70%;
+}
+/* What's web police
+--------------------------------------------------------- */
+.c-exprain{
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 2;
+	padding-bottom: 60px;
+}
+.c-sub--title{
+	font-size: 1.9rem;
+	font-weight: bold;
+	line-height: 3;
+}
+.c-img{
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 120px;
+}
+/* マネーロンダリング
+--------------------------------------------------------- */
+.exprain{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 700px;
+	margin-bottom: 120px;
+}
+.l-exprain{
+		line-height: 1.9;
+		margin-bottom: 60px;
+}
+/* こんなお悩みありませんか？
+--------------------------------------------------------- */
+.l-back{
+	background-color: #56A5ED;
+}
+.c-list-worries{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  line-height: 1.8;
+  font-size: 2rem;
+  color: #56A5ED;
+  font-weight: bold;
+}
+.baloon,.baloon2{
+  position: relative;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: 3px solid #56A5ED;
+  border-radius: 10px;
+  background: #fff;
+}
+.baloon:before,
+.baloon:after,
+.baloon2:before,
+.baloon2:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+.baloon{
+	margin-right: 40px;
+}
+.baloon2{
+	margin-left: 40px;
+}
+.baloon:before{/*青三角*/
+  top: 50px;
+  left: 100%;
+  border-style: solid;
+  border-color: transparent transparent #56A5ED transparent;
+  border-width: 0 40px 20px 0;
+}
+.baloon:after{/*白三角*/
+  top: 53px;
+  left: 100%;
+  right: 20px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  border-width: 0 28px 14px 0;
+  z-index: 10;
+}
+.baloon2:before{/*青三角*/
+  top: 50px;
+  right: 100%;
+  left: -40px;
+  border-style: solid;
+  border-color: transparent transparent #56A5ED transparent;
+  border-width: 0 0 20px 40px;
+}
+.baloon2:after{/*白三角*/
+  top: 53px;
+  right: 100%;
+  left: -28px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  border-width: 0 0 14px 28px;
+  z-index: 10;
+}
+.l-img{
+	width: 25%;
+	margin: 0 auto;
+	max-width: 120px;
+	margin-bottom: 60px;
+}
+/* web policeは犯罪を許さない
+--------------------------------------------------------- */
+.l-box{
+	width: 100%;
+	background-color: #F2F2F2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	}
+.l-box2{
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 80px 20px 20px 20px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	width: 80%;
+	}
+.position-number{
+		position: relative;
+	}
+.l-number{
+		position: absolute;
+		top: 20px;
+		left: 48%;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		color: #56A5ED;
+		font-size: 3rem;
+		font-weight: bold;
+	}
+.c-title--head--strength{
+	margin-bottom: 30px;
+}
+.c-list-strength{
+	line-height: 1.9;
+}
+.l-strength{
+		width: 50%;
+	    margin: 0 auto;
+	}
+.c-list-strength__item{
+	padding-bottom: 20px;
+}
+/* 実績
+--------------------------------------------------------- */
+.c-list__item{
+	color: #000;
+	font-size: 2.1rem;
+	margin-bottom: 120px;
+	font-weight: bold;
+	padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #fff;
+    border-top: solid 10px #000;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+	}
+.c-list__item2{
+	color: #000;
+	font-size: 2.1rem;
+	margin-bottom: 120px;
+	font-weight: bold;
+}
+.l-performance-img{
+	padding-top: 60px;
+	width: 70%;
+	margin: 0 auto;
+	max-width: 400px;
+}
+.l-performance-img1{
+	padding-top: 60px;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 500px;
+}
+.l-performance-img2{
+	padding-top: 60px;
+	width: 50%;
+	margin: 0 auto;
+	max-width: 400px;
+}
+.l-performance-img3{
+	padding-top: 60px;
+	width: 40%;
+	margin: 0 auto;
+}
+/* お問い合わせ
+--------------------------------------------------------- */
+table{
+	margin: 20px auto;
+	border-collapse: collapse;
+	border: none;
+}
+.tbr-r02{
+	width: 90%;
+	margin: 0 auto;
+}
+.tbl-r02 th{
+	display: block;
+	width: 100%;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+	border-bottom: none;
+	padding: 10px;
+}
+.tbl-r02 td{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-bottom: none;
+	text-align: left;
+}
+input[type="text"],#Inquiry,textarea{
+	padding: 2px;
+	border: 2px solid #56A5ED;
+	border-radius: 5px;
+	width: 260px;
+}
+input[type="text"]{
+	text-align: left;
+}
+#company_name,#name,#mail_address{
+	width: 270px;
+	height: 30px;
+}
+#tel_number,#Inquiry{
+	width: 200px;
+	height: 30px;
+}
+form textarea#comment{
+	width: 270px;
+	min-height: 180px;
+	max-height: 500px;
+	overflow: auto;
+	resize: vertical;
+}
+form p{
+	margin-top: 10px;
+	margin-bottom: 60px;
+	line-height: 2;
+	text-align: center;
+}
+form input#submit{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 50px;
+	padding: 10px 10px;
+	background-color: #56A5ED;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	border-style: none;
+}
+form input#submit:hover{
+	background-color: #D9D9D9;
+	color: fff;
+	border-style: none;
+}
+/*ここから以下はメディアクエリ*/
+@media only screen and (min-width: 830px){
+	.col{
+		float: left;
+		text-align: center;
+		margin-right: 2.5641%;
+		margin-left: 5.1282%;
+	}
+	.col:last-child{
+		margin-right: 0;
+	}
+	.col1{
+		width: 5.9829%;
+		}
+	.col2{
+		width: 14.5299%;
+	}
+	.col3{
+		width: 23.0769%;
+	}
+	.col4{
+		width: 31.6239%;
+	}
+	.col5{
+		width: 40.1709%;
+	}
+	.col6{
+		width: 48.7179%;
+	}
+	.col7{
+		width: 57.2649%;
+	}
+	.col8{
+		width: 65.8119%;
+	}
+	.col9{
+		width: 74.3589%;
+	}
+	.col10{
+		width: 82.9059%;
+	}
+	.col11{
+		width: 91.4529%;
+	}
+	.col12{
+		width: 100%;
+	}
+/* メインビジュアル
+--------------------------------------------------------- */
+.l-main-visual img{
+		width: 100%;
+		height: auto;
+	}
+.l-hero__tagline{
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 10%;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 40%;
+	max-width: 1300px;
+	width: auto;
+	padding: 20px;
+	display: block;
+	z-index: 2;
+}
+.l-hero__tagline2{
+	height: 250px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 13%;
+	margin-right: 55%;
+	margin-bottom: auto;
+	margin-left: auto;
+	width:auto;
+	max-width: 900px;
+	padding: 20px;
+	display: block;
+	z-index: 2;
+}
+.pcview{
+	display: none;
+}
+.spview{
+	display: block;
+}
+/* Base
+----------------------------------------------- */
+.l-inner{
+		margin: 0 auto;
+		max-width: 1500px;
+	}
+
+/* What's web police
+--------------------------------------------------------- */
+.c-img{
+	width: 20%;
+	}
+/* マネーロンダリング
+--------------------------------------------------------- */
+.exprain{
+	width: 50%;
+}
+.c-contents-size{
+	width: 43%;
+	margin-top: 10%;
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+	}
+.l-sub-inner{
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 120px;
+	}
+.right{
+	float: right;
+	}
+.c-left{
+	float: left;
+	}
+.l-exprain{
+	text-align: left;
+}
+.c-text--right{
+	text-align: right;
+	}
+.c-text--left{
+	text-align: left;
+	}
+/* こんなお悩みありませんか？
+--------------------------------------------------------- */
+	.animated left{
+		padding-top: -50px;
+	}
+.c-list-worries{
+		width: 70%;
+		margin: 0 auto;
+		font-size: 2.1rem;
+	}
+.c-list-worries__item{
+	float: left;
+	width: 60%;
+	padding: 30px;
+}
+	.c-list-worries__item2{
+		float:right;
+		width: 60%;
+	}
+.l-img{
+	width: 25%;
+	margin: 0 auto;
+}
+/* webpoliceは犯罪を許さない
+----------------------------------------------- */
+.l-box2{
+	padding: 20px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	width: 70%;
+	}
+.c-title--head--strength{
+	color: #000;
+	padding-top: 10px;
+	padding-left: 80px;
+	}
+.c-list-strength{
+	padding-left: 80px;	
+	}
+.l-strength{
+		width: 20%;
+		padding-left: 5%;
+		float: left;
+	}
+.l-length{
+	width: 70%;
+}
+	.l-length .c-title--head2{
+		font-size: 2.1rem;
+	}
+.l-strength2{
+	margin-top: 12%;
+	}
+.l-number{
+		top: 40%;
+		left: 35px;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		color: #56A5ED;
+		font-size: 4rem;
+		font-weight: bold;
+	}
+/*----------------------------
+実績
+----------------------------*/
+.c-list__item,.c-list__item2{
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 120px;
+	}
+.l-performance-img{
+	padding-top: 60px;
+	width: 50%;
+	margin: 0 auto;
+}
+.l-performance-img2{
+	padding-top: 60px;
+	width: 40%;
+	margin: 0 auto;
+	max-width: 400px;
+}
+.l-performance-img3{
+	padding-top: 60px;
+	width: 25%;
+	margin: 0 auto;
+}
+.l-performance{
+		margin-top: 60px;
+	}
+/*----------------------------
+お問い合わせ
+----------------------------*/
+table{
+	width: 50%;
+	margin: 60px auto;
+	border-collapse: separate;
+	max-width: 600px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px 0 30px 30px;
+}
+.tbl-ro2 tr:first-child{
+	padding-top: 30px;
+	}
+.tbl-r02 th{
+	width: 30%;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.tbl-r02 td{
+	width: 40%;
+	display: table-cell;
+	text-align: left;
+	}
+input[type="text"]{
+	text-align: left;
+}
+}
